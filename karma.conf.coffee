@@ -1,10 +1,10 @@
 module.exports = (config) ->
   config.set
-    frameworks: ['mocha', 'chai', 'browserify']
+    frameworks: ['browserify', 'mocha', 'chai']
     browsers: if process.env.TRAVIS then ['Firefox'] else ['Chrome']
 
     preprocessors:
-      'test/**/spec.coffee': ['coffee', 'browserify']
+      '**/*.coffee': ['browserify']
 
     browserify:
       transform: ['coffeeify']
@@ -13,5 +13,5 @@ module.exports = (config) ->
       debug: true
 
     files: [
-      'test/**/spec.coffee'
+      'test/**/*.spec.coffee'
     ]
