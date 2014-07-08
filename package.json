@@ -14,7 +14,7 @@
     "email": "",
     "url": "https://github.com/alexgorbatchev"
   },
-  "main": "./lib/brush.js",
+  "main": "./lib/syntaxhighlighter-brush.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/alexgorbatchev/syntaxhighlighter-brush.git"
