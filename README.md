@@ -1,12 +1,12 @@
 # syntaxhighlighter-brush
 
-Brush module for [SyntaxHighlighter](https://github.com/alexgorbatchev/syntaxhighlighter).
+Brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter).
 
-[![Dependency status](https://david-dm.org/alexgorbatchev/syntaxhighlighter-brush.png)](https://david-dm.org/alexgorbatchev/syntaxhighlighter-brush)
-[![devDependency Status](https://david-dm.org/alexgorbatchev/syntaxhighlighter-brush/dev-status.png)](https://david-dm.org/alexgorbatchev/syntaxhighlighter-brush#info=devDependencies)
-[![Build Status](https://travis-ci.org/alexgorbatchev/syntaxhighlighter-brush.png)](https://travis-ci.org/alexgorbatchev/syntaxhighlighter-brush)
+[![Dependency status](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush.svg)](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush)
+[![devDependency Status](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush/dev-status.svg)](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush#info=devDependencies)
+[![Build Status](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-brush.svg)](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-brush)
 
-[![NPM](https://nodei.co/npm/syntaxhighlighter-brush.png?downloads=true&stars=true)](https://npmjs.org/package/syntaxhighlighter-brush)
+[![NPM](https://nodei.co/npm/syntaxhighlighter-brush.svg)](https://npmjs.org/package/syntaxhighlighter-brush)
 
 ## Installation
 
