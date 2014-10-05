@@ -1,26 +1,24 @@
 {
-  "name": "syntaxhighlighter-brush",
-  "version": "0.5.0",
+  "name": "brush-base",
+  "version": "4.0.0",
   "description": "Brush module for SyntaxHighlighter.",
   "keywords": [
     "syntaxhighlighter",
-    "options",
-    "parser"
+    "brush"
   ],
-  "homepage": "https://github.com/alexgorbatchev/syntaxhighlighter-brush",
-  "bugs": "https://github.com/alexgorbatchev/syntaxhighlighter-brush/issues",
+  "homepage": "https://github.com/syntaxhighlighter/brush-base",
+  "bugs": "https://github.com/syntaxhighlighter/brush-base/issues",
   "author": {
     "name": "Alex Gorbatchev",
-    "email": "",
     "url": "https://github.com/alexgorbatchev"
   },
   "main": "./lib/brush.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexgorbatchev/syntaxhighlighter-brush.git"
+    "url": "https://github.com/syntaxhighlighter/brush-base.git"
   },
   "scripts": {
-    "test": "./node_modules/.bin/grunt test"
+    "test": "grunt test"
   },
   "dependencies": {
     "xregexp": "syntaxhighlighter/xregexp"
@@ -47,12 +45,5 @@
     "node": ">=0.10.0",
     "npm": ">=1.2.10"
   },
-  "licenses": [
-    {
-      "type": "MIT"
-    },
-    {
-      "type": "LGPL"
-    }
-  ]
+  "license": "MIT"
 }

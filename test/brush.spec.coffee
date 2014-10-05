@@ -4,7 +4,7 @@ chai = require 'chai'
 {Brush} = require '..'
 expect = chai.expect
 
-describe 'syntaxhighlighter-brush', ->
+describe 'brush', ->
   describe 'new brush', ->
     brush = null
 

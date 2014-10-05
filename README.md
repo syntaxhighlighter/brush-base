@@ -1,16 +1,12 @@
-# syntaxhighlighter-brush
+# syntaxhighlighter/brush-base
 
-Brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntaxhighlighter).
+Base brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
 
-[![Dependency status](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush.svg)](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush)
-[![devDependency Status](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush/dev-status.svg)](https://david-dm.org/syntaxhighlighter/syntaxhighlighter-brush#info=devDependencies)
-[![Build Status](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-brush.svg)](https://travis-ci.org/syntaxhighlighter/syntaxhighlighter-brush)
-
-[![NPM](https://nodei.co/npm/syntaxhighlighter-brush.svg)](https://npmjs.org/package/syntaxhighlighter-brush)
+[![Build Status](https://travis-ci.org/alexgorbatchev/brush.svg)](https://travis-ci.org/alexgorbatchev/brush-base)
 
 ## Installation
 
-    npm install syntaxhighlighter-brush
+    npm install syntaxhighlighter/brush-base
 
 ## Testing
 
@@ -18,4 +14,4 @@ Brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter/syntax
 
 ## License
 
-GPL & MIT
+MIT
