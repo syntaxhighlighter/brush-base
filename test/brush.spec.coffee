@@ -1,7 +1,7 @@
 require 'coffee-errors'
 
 chai = require 'chai'
-{Brush} = require '..'
+Brush = require '..'
 expect = chai.expect
 
 describe 'brush', ->
