@@ -1,11 +1,11 @@
 var XRegExp = require('xregexp');
 
-function Brush()
+function BrushBase()
 {
   // not putting any code in here because of the prototype inheritance
 };
 
-Brush.prototype = {
+BrushBase.prototype = {
   /**
    * Returns value of the parameter passed to the highlighter.
    * @param {String} name       Name of the parameter.
@@ -57,4 +57,4 @@ Brush.prototype = {
   }
 };
 
-module.exports = Brush;
+module.exports = BrushBase;
