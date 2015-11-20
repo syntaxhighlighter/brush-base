@@ -24,7 +24,6 @@
     "xregexp": "syntaxhighlighter/xregexp"
   },
   "devDependencies": {
-    "parser": "syntaxhighlighter/parser",
     "chai": "^1.9.1",
     "babel-core": "^6.1.21",
     "babel-preset-es2015": "^6.1.18",
