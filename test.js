@@ -1,5 +1,5 @@
 var chai = require('chai');
-var BrushBase = require('.');
+var BrushBase = require('./brush-base');
 var expect = chai.expect;
 
 class TestBrush extends BrushBase {
