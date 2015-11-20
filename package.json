@@ -21,8 +21,7 @@
     "test": "mocha --opts mocha.opts test.js"
   },
   "dependencies": {
-    "brush-base": "syntaxhighlighter/brush-base",
-    "regex-lib": "syntaxhighlighter/regex-lib"
+    "xregexp": "syntaxhighlighter/xregexp"
   },
   "devDependencies": {
     "parser": "syntaxhighlighter/parser",
