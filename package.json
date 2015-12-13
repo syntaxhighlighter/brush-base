@@ -37,6 +37,7 @@
   },
   "license": "MIT",
   "babel": {
+    "ignore": false,
     "presets": [
       "es2015"
     ]
