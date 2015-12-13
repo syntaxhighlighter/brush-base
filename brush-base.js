@@ -1,23 +1,12 @@
-var XRegExp = require('xregexp');
+import XRegExp from 'xregexp';
+import Renderer from 'html-renderer';
+import parser from 'parser';
 
 function BrushBase()
 {
-  // not putting any code in here because of the prototype inheritance
-};
+}
 
 BrushBase.prototype = {
-  /**
-   * Returns value of the parameter passed to the highlighter.
-   * @param {String} name       Name of the parameter.
-   * @param {Object} defaultValue   Default value.
-   * @return {Object}         Returns found value or default value otherwise.
-   */
-  getParam: function(name, defaultValue)
-  {
-    var result = this.params[name];
-    return utils.toBoolean(result == null ? defaultValue : result);
-  },
-
   /**
    * Converts space separated list of keywords into a regular expression string.
    * @param {String} str    Space separated keywords.
@@ -54,7 +43,13 @@ BrushBase.prototype = {
         "sgi"
         )
     };
-  }
+  },
+
+  getHtml(code, params = {}) {
+    const matches = parser.parse(code, this.regexList, params);
+    const renderer = new Renderer(code, matches, params);
+    return renderer.getHtml();
+  },
 };
 
 module.exports = BrushBase;
