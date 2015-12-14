@@ -12,13 +12,13 @@
     "name": "Alex Gorbatchev",
     "url": "https://github.com/alexgorbatchev"
   },
-  "main": "./brush-base.js",
+  "main": "./brush-base.es6",
   "repository": {
     "type": "git",
     "url": "https://github.com/syntaxhighlighter/brush-base.git"
   },
   "scripts": {
-    "test": "mocha --opts mocha.opts test.js"
+    "test": "mocha --opts mocha.opts test.es6"
   },
   "dependencies": {
     "xregexp": "syntaxhighlighter/xregexp",
@@ -26,7 +26,7 @@
     "parser": "syntaxhighlighter/parser"
   },
   "devDependencies": {
-    "chai": "^1.9.1",
+    "chai": "^3.4.1",
     "babel-core": "^6.1.21",
     "babel-preset-es2015": "^6.1.18",
     "mocha": "^2.3.4"
