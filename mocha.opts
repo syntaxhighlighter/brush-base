@@ -1,4 +1,4 @@
---require babel
+--require babel-core/register
 --recursive
 --reporter spec
 --ui bdd
