@@ -1,6 +1,6 @@
 # syntaxhighlighter/brush-base
 
-Base brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter).
+Base brush module for [SyntaxHighlighter](https://github.com/syntaxhighlighter) that is extended by all other brushes.
 
 [![Build Status](https://travis-ci.org/alexgorbatchev/brush.svg)](https://travis-ci.org/alexgorbatchev/brush-base)
 
