@@ -1,6 +1,6 @@
 import XRegExp from 'xregexp';
-import Renderer from 'html-renderer';
-import parser from 'parser';
+import Renderer from '@alexgorbatchev/html-renderer';
+import parser from '@alexgorbatchev/parser';
 
 module.exports = class BrushBase {
   /**

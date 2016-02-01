@@ -21,9 +21,9 @@
     "test": "mocha --opts mocha.opts test.js"
   },
   "dependencies": {
-    "xregexp": "syntaxhighlighter/xregexp",
-    "html-renderer": "syntaxhighlighter/html-renderer",
-    "parser": "syntaxhighlighter/parser"
+    "@alexgorbatchev/xregexp": "^4.0.0",
+    "@alexgorbatchev/html-renderer": "^4.0.0",
+    "@alexgorbatchev/parser": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",

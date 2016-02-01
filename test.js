@@ -12,7 +12,7 @@ class TestBrush extends BrushBase {
   }
 }
 
-describe('brush', function() {
+describe('brush-base', function() {
   describe('new brush', function() {
     var brush;
 
