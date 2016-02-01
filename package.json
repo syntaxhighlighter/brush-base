@@ -1,5 +1,5 @@
 {
-  "name": "brush-base",
+  "name": "@alexgorbatchev/brush-base",
   "version": "4.0.0",
   "description": "Base Brush class for all SyntaxHighlighter brushes.",
   "keywords": [
