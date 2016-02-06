@@ -23,7 +23,7 @@
   "dependencies": {
     "xregexp": "^4.0.0",
     "html-renderer": "^4.0.0",
-    "parser": "^4.0.0"
+    "syntaxhighlighter-match": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
