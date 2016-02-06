@@ -1,5 +1,5 @@
 {
-  "name": "@alexgorbatchev/brush-base",
+  "name": "brush-base",
   "version": "4.0.0",
   "description": "Base Brush class for all SyntaxHighlighter brushes.",
   "keywords": [
@@ -21,9 +21,9 @@
     "test": "mocha --opts mocha.opts test.js"
   },
   "dependencies": {
-    "@alexgorbatchev/xregexp": "^4.0.0",
-    "@alexgorbatchev/html-renderer": "^4.0.0",
-    "@alexgorbatchev/parser": "^4.0.0"
+    "xregexp": "^4.0.0",
+    "html-renderer": "^4.0.0",
+    "parser": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",
