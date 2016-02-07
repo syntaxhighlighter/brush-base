@@ -21,7 +21,7 @@
     "test": "mocha --opts mocha.opts test.js"
   },
   "dependencies": {
-    "html-renderer": "^4.0.0",
+    "syntaxhighlighter-html-renderer": "^4.0.0",
     "syntaxhighlighter-match": "^4.0.0",
     "syntaxhighlighter-regex": "^4.0.0"
   },
