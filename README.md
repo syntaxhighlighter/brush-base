@@ -2,6 +2,7 @@
 
 [![GratiPay](https://img.shields.io/gratipay/user/alexgorbatchev.svg)](https://gratipay.com/alexgorbatchev/)
 [![Build Status](https://travis-ci.org/syntaxhighlighter/brush-base.svg)](https://travis-ci.org/syntaxhighlighter/brush-base)
+[![Coverage](https://img.shields.io/codecov/c/github/syntaxhighlighter/brush-base.svg)](https://codecov.io/github/syntaxhighlighter/brush-base)
 ![Downloads](https://img.shields.io/npm/dm/brush-base.svg)
 ![Version](https://img.shields.io/npm/v/brush-base.svg)
 
