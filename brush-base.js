@@ -1,6 +1,6 @@
-import XRegExp from 'syntaxhighlighter-regex';
-import Renderer from 'html-renderer';
-import parser from 'parser';
+import Renderer from 'syntaxhighlighter-html-renderer';
+import { XRegExp } from 'syntaxhighlighter-regex';
+import { applyRegexList } from 'syntaxhighlighter-match';
 
 module.exports = class BrushBase {
   /**
@@ -43,7 +43,7 @@ module.exports = class BrushBase {
   }
 
   getHtml(code, params = {}) {
-    const matches = parser.parse(code, this.regexList, params);
+    const matches = applyRegexList(code, this.regexList);
     const renderer = new Renderer(code, matches, params);
     return renderer.getHtml();
   }
