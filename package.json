@@ -22,7 +22,8 @@
   },
   "dependencies": {
     "html-renderer": "^4.0.0",
-    "syntaxhighlighter-match": "^4.0.0"
+    "syntaxhighlighter-match": "^4.0.0",
+    "syntaxhighlighter-regex": "^4.0.0"
   },
   "devDependencies": {
     "chai": "^3.4.1",

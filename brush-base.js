@@ -1,4 +1,4 @@
-import XRegExp from 'xregexp';
+import XRegExp from 'syntaxhighlighter-regex';
 import Renderer from 'html-renderer';
 import parser from 'parser';
 
